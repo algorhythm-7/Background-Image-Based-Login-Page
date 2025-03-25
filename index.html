@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Login & Register</title>
+
+    <!-- css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <div class="form-container">
+        <div class="form-col">
+            <div class="btn-box">
+                <button class="btn btn-1" id="login">Sign In</button>
+                <button class="btn btn-2" id="register">Sign Up</button>
+            </div>
+
+            <!-- Login Form Container -->
+            <form action="GET" class="form-box login-form">
+                <div class="form-title">
+                    <span>Sign In</span>
+                </div>
+
+                <div class="form-inputs">
+                    <div class="input-box">
+                        <input type="text" class="inputs input-field" placeholder="Username" required>
+                        <ion-icon name="person-outline" class="icon"></ion-icon>
+                    </div>
+                    <div class="input-box">
+                        <input type="password" class="inputs input-field" placeholder="Password" required>
+                        <ion-icon name="lock-closed-outline" class="icon"></ion-icon>
+                    </div>
+
+                    <div id="forgot-pass" class="forgot-pass">
+                        <a href="#">Forgot Password</a>
+                    </div>
+
+                    <div>
+                        <button class="inputs submit-btn">
+                            <ion-icon name="arrow-forward-outline"></ion-icon>
+                            <span>Sign In</span>
+                        </button>
+                    </div>
+
+                </div>
+
+                <div class="social-login">
+                    <div class="social-login-box">
+                        <ion-icon name="logo-google" class="social-login-icon"></ion-icon>
+                    </div>
+                
+                    <div class="social-login-box">
+                        <ion-icon name="logo-facebook" class="social-login-icon"></ion-icon>
+                    </div>
+                
+                    <div class="social-login-box">
+                        <ion-icon name="logo-twitter" class="social-login-icon"></ion-icon>
+                    </div>
+                
+                    <div class="social-login-box">
+                        <ion-icon name="logo-github" class="social-login-icon"></ion-icon>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <!-- js script -->
+    <script src="assets/js/script.js"></script>
+
+    <!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
